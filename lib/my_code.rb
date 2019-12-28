@@ -6,4 +6,5 @@ end
 
 map(array) do |n|
   (n * -1)
+  new_array
 end
