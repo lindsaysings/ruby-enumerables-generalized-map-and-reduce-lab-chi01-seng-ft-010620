@@ -1,10 +1,7 @@
 def map(array)
   new = []
-  yield(new)
-  new
-end
-
-map() do |n|
-  (n * -1)
-  new
-end
+  i = 0 
+  while i < array.length do
+    new.push(array[i])
+    i += 1 
+  end
