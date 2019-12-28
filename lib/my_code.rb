@@ -4,7 +4,7 @@ def map(array)
   new_array
 end
 
-map([n]) do |n|
+map([]) do |n|
   (n * -1)
   new_array
 end
