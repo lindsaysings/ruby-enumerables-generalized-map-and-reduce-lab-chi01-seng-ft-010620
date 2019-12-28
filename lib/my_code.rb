@@ -1,10 +1,10 @@
 def map(array)
-  new_array = array
-  yield(new_array)
-  new_array
+  new = []
+  yield(new)
+  new
 end
 
 map([]) do |n|
   (n * -1)
-  new_array
+  new
 end
