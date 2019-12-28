@@ -4,7 +4,7 @@ def map(array)
   new
 end
 
-map([]) do |n|
+map() do |n|
   (n * -1)
   new
 end
