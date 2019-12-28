@@ -5,3 +5,4 @@ def map(array)
     new.push(array[i])
     i += 1 
   end
+end
