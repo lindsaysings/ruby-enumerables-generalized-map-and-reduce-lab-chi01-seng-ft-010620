@@ -7,3 +7,7 @@ def map(array)
   end
   new
 end
+
+def reduce(source_array, starting_point = source_array[0])
+  
+end
