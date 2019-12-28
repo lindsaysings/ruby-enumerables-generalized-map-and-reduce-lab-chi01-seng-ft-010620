@@ -4,7 +4,7 @@ def map(array)
   new_array
 end
 
-map(dune) do |n|
+map([n]) do |n|
   (n * -1)
   new_array
 end
